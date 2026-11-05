@@ -9,7 +9,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Running Test stage..."
-                // פקודה המדמה כישלון בשלב ה-Test לבדיקת ה-Stage View בג'נקינס
                 sh 'exit 1'
             }
         }
