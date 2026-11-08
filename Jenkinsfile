@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Running Build on feature branch"
+                echo 'Running build on feature branch'
             }
         }
     }
