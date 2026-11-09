@@ -8,5 +8,3 @@ pipeline {
         }
     }
 }
-// force rescan
-// force rescan
